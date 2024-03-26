@@ -13,6 +13,11 @@ return new class extends Migration
     {
         Schema::create('seats', function (Blueprint $table) {
             $table->id();
+            $table->string('seat_number');
+            $table->boolean('kind_flg');
+            $table->boolean('seat_condition_flg');
+            $table->integer('store_id');
+            $table->boolean('delete_flg');
             $table->timestamps();
         });
     }

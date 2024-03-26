@@ -13,6 +13,10 @@ return new class extends Migration
     {
         Schema::create('sales_tallies', function (Blueprint $table) {
             $table->id();
+            $table->integer('total');
+            $table->integer('store_id');
+            $table->dateTime('date');
+            $table->string('day_of_week');
             $table->timestamps();
         });
     }
