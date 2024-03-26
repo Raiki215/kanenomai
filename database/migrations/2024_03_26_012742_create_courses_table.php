@@ -13,6 +13,9 @@ return new class extends Migration
     {
         Schema::create('courses', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('original_cource_id')->constrained('products'); //コースのid
+            $table->foreignId('product_cource_id')->constrained('products'); //コースの中の商品のid
+            $table->boolean('delete_flg');
             $table->timestamps();
         });
     }
