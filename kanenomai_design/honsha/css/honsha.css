@@ -1,0 +1,17 @@
+
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.rogu{
+    text-align: center;
+}
+a{
+    font-size: 10px;
+}
+.button{
+    text-align: center;
+}

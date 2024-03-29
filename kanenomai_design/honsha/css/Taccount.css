@@ -1,0 +1,39 @@
+header img{
+    width: 100px;
+    height: 50px;
+    
+}
+.hea{
+    text-align: right;
+}
+.hea a{
+    margin-left: 70px;
+}
+header {
+    display: flex;
+}
+header a{
+    margin-left: 10px;
+    font-size: 23px;
+    text-decoration: none;
+}
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: burlywood;
+}
+.form p{
+    text-align: center;
+}
+.text{
+    width: auto;
+    text-align: center;
+}
+a{
+    font-size: 10px;
+}
+.button{
+    text-align: center;
+}

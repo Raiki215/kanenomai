@@ -1,0 +1,62 @@
+header img {
+    width: 100px;
+    height: 50px;
+}
+
+.hea {
+    text-align: right;
+}
+
+.hea a {
+    margin-left: 45px;
+}
+
+header {
+    display: flex;
+}
+
+header a {
+    margin-left: 10px;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+.yoy {
+    display: flex;
+    justify-content: center;
+}
+.time{
+    display: flex;
+}
+.time p{
+    margin: 20px 30px;
+}
+.name{
+    justify-content: center;
+    display: flex;
+}
+.name p{
+    text-align: center;
+}
+.tel{
+    display: flex;
+    justify-content: center;
+}
+.tel p{
+    text-align: center;
+}
+.button{
+    justify-content: center;
+    display: flex;
+}
+.human{
+    justify-content: center;
+    display: flex;
+}
+.for{
+    background-color: burlywood;
+}
+
+
+
+
