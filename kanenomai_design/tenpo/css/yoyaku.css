@@ -1,0 +1,44 @@
+header img {
+    width: 100px;
+    height: 50px;
+}
+
+.hea a{
+    text-align: right; 
+}
+
+.hea a:last-child {
+    margin-right: 10px; 
+}
+
+header {
+    display: flex;
+}
+
+header a {
+    margin-left: 10px;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+}
+
+table  {
+    margin: 0 auto; /* ここでテーブルを中央に配置 */
+    
+}
+.tab{
+    margin: 40px auto;
+    background-color: cornsilk;
+    width: 450px;
+    
+}
+.tou{
+    text-align: right;
+    margin-bottom: 15px;
+    margin-right: 100px;
+}
+
+

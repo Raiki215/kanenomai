@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../css/Taccount.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>アカウント登録画面</title>
+</head>
+<body>
+    <header>
+        <img src="../img/金の舞（ロゴのみ）.png" alt="">
+        <div class="hea">
+        <a href="home.html">ホーム</a>
+        <a href="account.html">アカウント管理</a>
+        <a href="uriage.html">売上閲覧</a>
+        <a href="menu.html">メニュー管理</a>
+        <a href="#">ログアウト</a>
+        </div>
+    </header>
+
+    <h3>管理者アカウント登録</h3>
+    <div class="form">
+        <form  action="#" method="post">
+            <p>登録名<br>
+            <input class="text" type="text" name="name" ></p>
+            <p>メールアドレス<br>
+            <input class="text" type="text" name="mail"></p>
+            <p>password<br>
+            <input class="text" type="password" name="password"></p>
+            
+            <input type="radio" id="radio" name="radio" checked>
+            <label for="radio">本社管理者</label>
+            <input type="radio" id="radio2" name="radio" checked>
+            <label for="radio2">店舗管理者</label>
+
+            <p class="button"><input type="button" value="登録" id="button" ></p>
+           </form>
+    </div>
+    
+</body>
+</html>

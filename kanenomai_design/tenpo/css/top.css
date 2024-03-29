@@ -1,0 +1,48 @@
+
+header img{
+    width: 100px;
+    height: 50px;
+    
+}
+.hea{
+    text-align: right;
+}
+.hea a{
+    margin-left: 45px;
+}
+header {
+    display: flex;
+}
+header a{
+    margin-left: 10px;
+    font-size: 23px;
+    text-decoration: none;
+}
+.ikou {
+    
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+    
+}
+.ikou a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 30px 0;
+    margin-right: 100px;
+}
+
+.ikou a:hover {
+    background-color: #45a049;
+}
+h2{
+    text-align: center;
+}
