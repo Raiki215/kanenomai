@@ -13,8 +13,17 @@ class initcoursesSeeder extends Seeder
      */
     public function run(): void
     {
-        DB:table('courses')->insert([
-            
-        ]);
+        DB::table('courses')->insert(
+            [
+                'original_cource_id' => 5,
+                'product_cource_id'=> 4,
+                'delete_flg' => false,
+            ],
+            [
+                'original_cource_id' => 5,
+                'product_cource_id'=> 6,
+                'delete_flg' => false,
+            ]
+        );
     }
 }

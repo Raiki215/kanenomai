@@ -13,15 +13,23 @@ class initcategoriesSeeder extends Seeder
      */
     public function run(): void
     {
-        DB:table('categories')->insert([
-            'name' => 'お酒'
-        ],
-        [
-            'name' => '一品料理'
-        ],
-        [
-            'name' => 'おつまみ'
-        ]
-        );
+        $param = [
+            'name' => 'お酒',
+            'delete_flg' => 0,
+        ];
+        DB::table('categories')->insert($param);
+
+        $param = [
+            'name' => '一品料理',
+            'delete_flg' => 0,
+        ];
+        DB::table('categories')->insert($param);
+
+        $param = [
+            'name' => 'おつまみ',
+            'delete_flg' => 0,
+        ];
+        DB::table('categories')->insert($param);
+
     }
 }
